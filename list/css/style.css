@@ -1,0 +1,14 @@
+ul:first-of-type {
+  list-style-image: url("../img/puce.png");
+}
+
+ul:nth-of-type(2) li {
+  list-style: none;
+  background-image: url("../img/globe.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  line-height: 105px;
+  width: 7rem;
+  height: 7rem;
+  padding-left: 7rem;
+}

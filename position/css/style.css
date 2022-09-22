@@ -1,0 +1,249 @@
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.exo4,
+.exo5,
+.exo6,
+.exo7,
+.exo8 {
+  margin: 1rem;
+}
+
+/* exo4 */
+
+.exo4 {
+  background-color: lawngreen;
+  width: 500px;
+  position: relative;
+  padding: 0 0 5px 5px;
+  padding-left: 5px;
+}
+
+.exo4 p {
+  padding-top: 10px;
+  margin-top: 0;
+}
+
+.exo4 div {
+  background-color: yellow;
+  float: right;
+  width: 150px;
+  padding: 2px;
+}
+
+/* exo5 */
+
+.exo5 {
+  background-color: darkcyan;
+  width: 500px;
+  padding: 1rem;
+  position: relative;
+}
+
+.exo5 div {
+  background-color: white;
+  padding: 10px;
+  width: 60%;
+}
+
+.exo5 ul {
+  width: 33%;
+  float: right;
+  margin: -42.5rem 0;
+  background-color: dodgerblue;
+}
+
+.exo5 ul a {
+  color: black;
+  text-transform: capitalize;
+}
+
+/* exo6 */
+
+.exo6 {
+  background-color: lawngreen;
+  width: 500px;
+  padding-bottom: 6rem;
+}
+
+.exo6 p {
+  margin-top: 0;
+  padding: 10px;
+  float: left;
+}
+
+.exo6 div {
+  background-color: yellow;
+  width: 200px;
+  float: right;
+}
+
+/* exo7 */
+
+.exo7 {
+  background-color: lawngreen;
+  padding-bottom: 1rem;
+  position: relative;
+}
+
+.exo7 div {
+  background-color: yellow;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+/* exo8 */
+
+.exo8 {
+  background-color: cadetblue;
+  padding: 1rem;
+}
+
+.exo8 ul {
+  background-color: beige;
+}
+
+.exo8 ul li {
+  display: inline-block;
+  width: 19%;
+  text-align: center;
+}
+
+.exo8 div {
+  background-color: white;
+  margin: 0 5px 0 5px;
+  border: 1px solid black;
+}
+
+.exo8 div p {
+  margin: 0;
+}
+
+/* exo9 */
+
+.exo9 {
+  border: 5px dashed black;
+}
+
+.exo9 p {
+  margin: 10px;
+}
+
+.exo9 a {
+  text-decoration: underline;
+}
+
+.exo9 a img {
+  margin-left: 5px;
+}
+
+/* exo10 */
+.exo10 {
+  transform: scale(0.7);
+}
+
+.exo10 img {
+  width: 100%;
+}
+
+.exo10:hover {
+  transform: scale(1);
+}
+
+/* exo map */
+
+#map {
+  position: relative;
+}
+
+#map div.title {
+  position: absolute;
+  top: 0;
+  left: 1rem;
+  color: white;
+}
+
+#map div h1,
+#map div h2 {
+  background-color: black;
+  width: fit-content;
+  padding: 5px;
+}
+
+#point1,
+#point2,
+#point3 {
+  background-color: white;
+  padding: 7px;
+  cursor: pointer;
+  width: fit-content;
+  margin-bottom: 1rem;
+}
+
+.pt1,
+.pt2,
+.pt3 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#points .pt1 {
+  bottom: 5rem;
+  left: 3rem;
+}
+
+#points .pt2 {
+  top: 12rem;
+  left: 7rem;
+}
+
+#points .pt3 {
+  top: 12rem;
+  left: 17rem;
+}
+
+#point3-explication,
+#point2-explication,
+#point1-explication {
+  margin: 0 auto;
+  visibility: hidden;
+  padding: 1rem;
+}
+
+dd a {
+  color: white;
+}
+
+.pt1:hover,
+.pt2:hover,
+.pt3:hover {
+  background-color: black;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.pt1:hover #point1-explication {
+  visibility: visible;
+}
+
+.pt2:hover #point2-explication {
+  visibility: visible;
+}
+
+.pt3:hover #point3-explication {
+  visibility: visible;
+}

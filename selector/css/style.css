@@ -1,0 +1,85 @@
+/* first exo */
+
+* {
+    margin: 0;
+    border-collapse: collapse;
+}
+body {
+    margin: 0;
+}
+h1, h2 {
+    color: red;
+}
+#bloc {
+    background-color: yellow;
+}
+#bloc b {
+    color: green;
+}
+.p2 {
+    color: #fae261;
+}
+input[type="text"] {
+    background-color: green;
+}
+main > p a {
+    color: gray;
+    text-decoration: none;
+}
+main > p a:hover {
+    color: pink;
+}
+
+/*second exo*/
+
+dt:not(dt.la_classe) {
+    background-color: red;
+}
+
+dd:not(dd#mon_id) {
+    background-color: green;
+}
+
+/*thirst exo*/
+
+.thirst h1 em {
+    background-color: green;
+}
+
+main .thirst q {
+    background-color: yellow;
+}
+
+main q.ma_classe ~ q {
+    background-color: red;
+}
+
+/*array exo*/
+
+.array h1 {
+    text-align: center;
+}
+
+.array table {
+    border: 2px solid red;
+    width: 100%;
+}
+
+.array tr {
+    background-color: green;
+}
+
+.array tr th {
+    background-color: black;
+    color: white;
+    border-right: 1px solid white;
+}
+
+.array tr td {
+    border: 1px solid black;
+}
+
+.array caption {
+    text-align: left;
+    color: green;
+}
